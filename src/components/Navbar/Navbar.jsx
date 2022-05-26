@@ -6,7 +6,7 @@ import images from "../../constants/images";
 import "./Navbar.css";
 
 const Navbar = () => {
-  const [toggleMenu, setToggle] = useState(false);
+  const [toggleMenu, setToggleMenu] = useState(false);
   return (
     <nav className="app-navbar">
       <div className="navbar-logo">
@@ -14,25 +14,25 @@ const Navbar = () => {
       </div>
       <ul className="navbar-links">
         <li className="navbar-link">
-          <a href="#home">Our Story</a>
+          <a href="ourstory">Our Story</a>
         </li>
         <li className="navbar-link">
-          <a href="#menu">Menu</a>
+          <a href="menu">Menu</a>
         </li>
         <li className="navbar-link">
-          <a href="#order">Order</a>
+          <a href="order">Order</a>
         </li>
         <li className="navbar-link">
-          <a href="#gallery">Gallery</a>
+          <a href="gallery">Gallery</a>
         </li>
         <li className="navbar-link">
-          <a href="#contact">Find Us</a>
+          <a href="find_us">Find Us</a>
         </li>
       </ul>
       <div className="navbar-login">
-        <a href="#login">Log in</a>
+        <a href="login">Log in</a>
         <div />
-        <a href="#reservation">Book Table</a>
+        <a href="book_table">Book Table</a>
       </div>
       <div className="navbar-responsive">
         <GiHamburgerMenu
@@ -50,19 +50,19 @@ const Navbar = () => {
             />
             <ul className="navbar-responsive-links">
               <li className="navbar-link">
-                <a href="#home">Our Story</a>
+                <a href="our_story">Our Story</a>
               </li>
               <li className="navbar-link">
-                <a href="#menu">Menu</a>
+                <a href="menu">Menu</a>
               </li>
               <li className="navbar-link">
-                <a href="#order">Order</a>
+                <a href="order">Order</a>
               </li>
               <li className="navbar-link">
-                <a href="#gallery">Gallery</a>
+                <a href="gallery">Gallery</a>
               </li>
               <li className="navbar-link">
-                <a href="#contact">Find Us</a>
+                <a href="find_us">Find Us</a>
               </li>
             </ul>
           </div>
